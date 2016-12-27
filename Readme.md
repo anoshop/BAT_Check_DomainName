@@ -5,8 +5,26 @@
 	   Base on  RFC 945 。
 
 
-###用法：
-###Ugage:
+
+
+
+
+### The Speed test：
+
+`Total 676 Domain name to check , Run with: ./mac_speed com 2l.txt 3  and get the result as bellow`
+**real	0m9.767s**
+
+**user	0m0.415s**
+
+**sys	0m0.632s**
+
+
+
+
+
+
+
+###Usage:
 
 	 `程序名 域名后缀 data文件夹中任一字典文件名 多线程发动间隔微秒数(如io域名建议3秒,则写3000)`,
       如window下的 sg.exe com 3py.txt 3
@@ -22,7 +40,7 @@
 
 
 
-###各大系统使用示例：
+###How to use  on window/linux/osx：
 Window 用户，有2种用法：
 	a、直接执行startWindow.bat 文件
 	b、用cmd进入到文件所在目录，然后输入`window.exe com 3py.txt 3 `
@@ -36,7 +54,8 @@ OSX 用户：
 
 
 ### 目前只提供mac_speed 这个编译好的文件，其他的请自行编译。所有平台都已测试通过
-
+     current just offer the execute file base on  mac platfrom,  pls build for other platfrom with go build tools
+	
 
 
 ###字典增减：可以在dict目录增加任意文本文件，一行一个字符串
