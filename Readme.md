@@ -11,6 +11,8 @@
 	 `程序名 域名后缀 data文件夹中任一字典文件名 多线程发动间隔微秒数(如io域名建议3秒,则写3000)`,
       如window下的 sg.exe com 3py.txt 3
 
+-----
+
 	  `application_name  DomainTld(like'com')  dict_file_name Waittime(MicronSeconds)`
 	  eg:  `./mac_speed com 3py.txt 3`
 
