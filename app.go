@@ -139,14 +139,14 @@ func query(line string) {
 		reg := regexp.MustCompile(tldinfo.Patterns.NotRegistered)
 		re := reg.FindAllString(newstr, -1)
 		if re == nil {
-			fmt.Printf(domain+"已被注册\n")
+			fmt.Printf(domain+"has been registed\n")
 			//wgLogFile.Lock()
 			//fileLog.WriteString(`已被注册:` + domain)
 			//
 			//wgLogFile.Lock()
 
 		} else {
-			fmt.Printf(domain+"可以注册,可以注册,可以注册 \n")
+			fmt.Printf(domain+" can be regist!!can be regist!!can be regist!! \n")
 			//wgLogFile.Lock()
 			//fileLog.WriteString(`恭喜，可以被注册:` + domain)
 			wgSuccFile.Lock()
@@ -173,5 +173,9 @@ func helper() {
 		"字典增减：可以在dict目录增加任意文本文件，一行一个字符串\r\n" +
 		"域名后缀增减：直接编辑data目录下的tld.json.txt\r\n" +
 		"作者:Eric.c via  http://sunorg.net  Since 2016年12月22日\r\n" +
-		"授权：随意用，")
+		"授权：随意用，\r\n" +
+		"\r\n\r\n" +
+		"Batch check domain name resgist status\r\n" +
+		"Usage: APPLACATION TLD Dict_file_name MicroSecond\r\n" +
+		"Example: ./mac_seepd com 2letter.txt  3 ")
 }
