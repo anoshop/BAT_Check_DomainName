@@ -1,0 +1,3423 @@
+[{
+    "tld": "aero",
+    "description": "air-transport industry",
+    "whoisServer": "aero.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "amsterdam",
+    "description": "Amsterdam",
+    "whoisServer": "whois.nic.amsterdam",
+    "patterns": {
+        "notRegistered": "/Status: free/",
+        "waitPeriod": "/maximum number of requests per second exceeded/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "asia",
+    "description": "Asia-Pacific region",
+    "whoisServer": "asia.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "biz",
+    "description": "business",
+    "whoisServer": "biz.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "cat",
+    "description": "Catalan",
+    "whoisServer": "cat.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND\\./"
+    }
+}, {
+    "tld": "com",
+    "description": "commercial",
+    "whoisServer": "com.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for /"
+    }
+}, {
+    "tld": "coop",
+    "description": "cooperatives",
+    "whoisServer": "coop.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No domain records were found to match/"
+    }
+}, {
+    "tld": "info",
+    "description": "information",
+    "whoisServer": "info.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "int",
+    "description": "international organizations",
+    "whoisServer": "int.whois-servers.net"
+}, {
+    "tld": "jobs",
+    "description": "companies",
+    "whoisServer": "jobs.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "mobi",
+    "description": "mobile devices",
+    "whoisServer": "mobi.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "museum",
+    "description": "museums",
+    "whoisServer": "museum.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND\\./"
+    }
+}, {
+    "tld": "name",
+    "description": "individuals, by name",
+    "whoisServer": "name.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "net",
+    "description": "network",
+    "whoisServer": "net.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for /"
+    }
+}, {
+    "tld": "org",
+    "description": "organization",
+    "whoisServer": "org.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "pro",
+    "description": "professions",
+    "whoisServer": "pro.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "tel",
+    "description": "Internet communication services",
+    "whoisServer": "tel.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "travel",
+    "description": "travel and tourism industry related sites",
+    "whoisServer": "travel.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "xxx",
+    "description": "adult entertainment",
+    "whoisServer": "xxx.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "edu",
+    "description": "educational",
+    "whoisServer": "edu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No Match/"
+    }
+}, {
+    "tld": "gov",
+    "description": "governmental",
+    "whoisServer": "gov.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "mil",
+    "description": "US military",
+    "whoisServer": null
+}, {
+    "tld": "ac",
+    "description": "Ascension Island",
+    "whoisServer": "ac.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/is available for purchase/"
+    }
+}, {
+    "tld": "ad",
+    "description": "Andorra",
+    "whoisServer": null
+}, {
+    "tld": "ae",
+    "description": "United Arab Emirates",
+    "whoisServer": "ae.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "af",
+    "description": "Afghanistan",
+    "whoisServer": "af.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "ag",
+    "description": "Antigua and Barbuda",
+    "whoisServer": "ag.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "ai",
+    "description": "Anguilla",
+    "whoisServer": "whois.ai",
+    "patterns": {
+        "notRegistered": "/ not registred\\./"
+    }
+}, {
+    "tld": "al",
+    "description": "Albania",
+    "whoisServer": null
+}, {
+    "tld": "am",
+    "description": "Armenia",
+    "whoisServer": "am.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match/"
+    }
+}, {
+    "tld": "an",
+    "description": "Netherlands Antilles",
+    "whoisServer": null
+}, {
+    "tld": "ao",
+    "description": "Angola",
+    "whoisServer": null
+}, {
+    "tld": "aq",
+    "description": "Antarctica",
+    "whoisServer": null
+}, {
+    "tld": "ar",
+    "description": "Argentina",
+    "whoisServer": null
+}, {
+    "tld": "as",
+    "description": "American Samoa",
+    "whoisServer": "as.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: Available/",
+        "quotaExceeded": "/Lookup quota exceeded/"
+    }
+}, {
+    "tld": "at",
+    "description": "Austria",
+    "whoisServer": "at.whois-servers.net",
+    "patterns": {
+        "quotaExceeded": "/% Quota exceeded/",
+        "notRegistered": "/% nothing found/"
+    }
+}, {
+    "tld": "au",
+    "description": "Australia",
+    "whoisServer": "whois.audns.net.au",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "aw",
+    "description": "Aruba",
+    "whoisServer": null
+}, {
+    "tld": "ax",
+    "description": "\u00c5land",
+    "whoisServer": null
+}, {
+    "tld": "az",
+    "description": "Azerbaijan",
+    "whoisServer": null
+}, {
+    "tld": "ba",
+    "description": "Bosnia and Herzegovina",
+    "whoisServer": null
+}, {
+    "tld": "bb",
+    "description": "Barbados",
+    "whoisServer": null
+}, {
+    "tld": "bd",
+    "description": "Bangladesh",
+    "whoisServer": null
+}, {
+    "tld": "be",
+    "description": "Belgium",
+    "whoisServer": "be.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status:\\s+AVAILABLE/"
+    }
+}, {
+    "tld": "bf",
+    "description": "Burkina Faso",
+    "whoisServer": null
+}, {
+    "tld": "bg",
+    "description": "Bulgaria",
+    "whoisServer": "bg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/does not exist in database!/"
+    }
+}, {
+    "tld": "bh",
+    "description": "Bahrain",
+    "whoisServer": null
+}, {
+    "tld": "bi",
+    "description": "Burundi",
+    "whoisServer": "whois1.nic.bi",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "bj",
+    "description": "Benin",
+    "whoisServer": "whois.nic.bj",
+    "patterns": {
+        "notRegistered": "/No records matching /"
+    }
+}, {
+    "tld": "bm",
+    "description": "Bermuda",
+    "whoisServer": null
+}, {
+    "tld": "bn",
+    "description": "Brunei",
+    "whoisServer": null
+}, {
+    "tld": "bo",
+    "description": "Bolovia",
+    "whoisServer": "bo.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Results:\n\n\nwhois\\.nic\\.bo solo acepta consultas con dominios \\.bo/"
+    }
+}, {
+    "tld": "br",
+    "description": "Brazil",
+    "whoisServer": "whois.registro.br",
+    "patterns": {
+        "notRegistered": "/% No match for domain/"
+    }
+}, {
+    "tld": "bs",
+    "description": "Bahamas",
+    "whoisServer": null
+}, {
+    "tld": "bt",
+    "description": "Bhutan",
+    "whoisServer": null
+}, {
+    "tld": "bv",
+    "description": "Bouvet Island",
+    "whoisServer": null
+}, {
+    "tld": "bw",
+    "description": "Botswana",
+    "whoisServer": null
+}, {
+    "tld": "by",
+    "description": "Belarus",
+    "whoisServer": "whois.cctld.by",
+    "patterns": {
+        "notRegistered": "/Object does not exist/"
+    }
+}, {
+    "tld": "bz",
+    "description": "Belize",
+    "whoisServer": null
+}, {
+    "tld": "ca",
+    "description": "Canada",
+    "whoisServer": "ca.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain status:         available/"
+    }
+}, {
+    "tld": "cc",
+    "description": "Cocos (Keeling) Islands",
+    "whoisServer": "cc.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "cd",
+    "description": "Democratic Republic of the Congo",
+    "whoisServer": null
+}, {
+    "tld": "cf",
+    "description": "Central African Republic",
+    "whoisServer": null
+}, {
+    "tld": "cg",
+    "description": "Republic of the Congo",
+    "whoisServer": null
+}, {
+    "tld": "ch",
+    "description": "Switzerland",
+    "whoisServer": "ch.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/We do not have an entry in our database matching your query\\./"
+    }
+}, {
+    "tld": "ci",
+    "description": "C\u00f4te d'Ivoire",
+    "whoisServer": "whois.nic.ci",
+    "patterns": {
+        "notRegistered": "/not found/"
+    }
+}, {
+    "tld": "ck",
+    "description": "Cook Islands",
+    "whoisServer": null
+}, {
+    "tld": "cl",
+    "description": "Chile",
+    "whoisServer": "cl.whois-servers.net",
+    "patterns": {
+        "noConnectoin": "/Unable to connect to the specified registry nic\\.cl\\./"
+    }
+}, {
+    "tld": "cm",
+    "description": "Cameroon",
+    "whoisServer": null
+}, {
+    "tld": "cn",
+    "description": "People's Republic of China",
+    "whoisServer": "cn.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/no matching record\\./",
+        "waitPeriod": "/Queried interval is too short/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "co",
+    "description": "Colombia",
+    "whoisServer": "co.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found: /"
+    }
+}, {
+    "tld": "cr",
+    "description": "Costa Rica",
+    "whoisServer": null
+}, {
+    "tld": "cs",
+    "description": "Czechoslovakia",
+    "whoisServer": null
+}, {
+    "tld": "cu",
+    "description": "Cuba",
+    "whoisServer": null
+}, {
+    "tld": "cv",
+    "description": "Cape Verde",
+    "whoisServer": null
+}, {
+    "tld": "cx",
+    "description": "Christmas Island",
+    "whoisServer": "whois.nic.cx",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "cy",
+    "description": "Cyprus",
+    "whoisServer": null
+}, {
+    "tld": "cz",
+    "description": "Czech Republic",
+    "whoisServer": "cz.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/no entries found/",
+        "quotaExceeded": "/Your connection limit exceeded/"
+    }
+}, {
+    "tld": "dd",
+    "description": "East Germany",
+    "whoisServer": null
+}, {
+    "tld": "de",
+    "description": "Germany",
+    "whoisServer": "de.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: free/"
+    }
+}, {
+    "tld": "dj",
+    "description": "Djibouti",
+    "whoisServer": null
+}, {
+    "tld": "dk",
+    "description": "Denmark",
+    "whoisServer": "dk.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for the selected source\\./"
+    }
+}, {
+    "tld": "dm",
+    "description": "Dominica",
+    "whoisServer": "dm.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/not found\\.\\.\\./"
+    }
+}, {
+    "tld": "do",
+    "description": "Dominician Republic",
+    "whoisServer": null
+}, {
+    "tld": "dz",
+    "description": "Algeria",
+    "whoisServer": null
+}, {
+    "tld": "ec",
+    "description": "Ecuador",
+    "whoisServer": "whois.nic.ec",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "ee",
+    "description": "Estonia",
+    "whoisServer": "ee.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain not found/"
+    }
+}, {
+    "tld": "eg",
+    "description": "Egypt",
+    "whoisServer": null
+}, {
+    "tld": "eh",
+    "description": "Western Sahara",
+    "whoisServer": null
+}, {
+    "tld": "er",
+    "description": "Eritrea",
+    "whoisServer": null
+}, {
+    "tld": "es",
+    "description": "Spain",
+    "whoisServer": null
+}, {
+    "tld": "et",
+    "description": "Ethiopia",
+    "whoisServer": null
+}, {
+    "tld": "eu",
+    "description": "European Unition",
+    "whoisServer": "eu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/AVAILABLE/"
+    }
+}, {
+    "tld": "fi",
+    "description": "Finland",
+    "whoisServer": "fi.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain not found/"
+    }
+}, {
+    "tld": "fj",
+    "description": "Fiji",
+    "whoisServer": null
+}, {
+    "tld": "fk",
+    "description": "Falkland Islands",
+    "whoisServer": null
+}, {
+    "tld": "fm",
+    "description": "Federated States of Micronesia",
+    "whoisServer": null
+}, {
+    "tld": "fo",
+    "description": "Faroe Islands",
+    "whoisServer": "fo.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found/"
+    }
+}, {
+    "tld": "fr",
+    "description": "France",
+    "whoisServer": "fr.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
+}, {
+    "tld": "frl",
+    "description": "Friesland",
+    "whoisServer": "whois.nic.frl",
+    "patterns": {
+        "notRegistered": "/Status:\\s+AVAILABLE/"
+    }
+}, {
+    "tld": "ga",
+    "description": "Gabon",
+    "whoisServer": null
+}, {
+    "tld": "gb",
+    "description": "United Kingdom",
+    "whoisServer": null
+}, {
+    "tld": "gd",
+    "description": "Grenada",
+    "whoisServer": "gd.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/not found\\.\\.\\./"
+    }
+}, {
+    "tld": "ge",
+    "description": "Georgia",
+    "whoisServer": null
+}, {
+    "tld": "gf",
+    "description": "French Guiana",
+    "whoisServer": null
+}, {
+    "tld": "gg",
+    "description": "Guernsey",
+    "whoisServer": "gg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: Available/",
+        "quotaExceeded": "/Quota exceeded/"
+    }
+}, {
+    "tld": "gh",
+    "description": "Ghana",
+    "whoisServer": null
+}, {
+    "tld": "gi",
+    "description": "Gibraltar",
+    "whoisServer": "whois2.afilias-grs.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "gl",
+    "description": "Greenland",
+    "whoisServer": "whois.nic.gl",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "gm",
+    "description": "The Gambia",
+    "whoisServer": null
+}, {
+    "tld": "gn",
+    "description": "Guinea",
+    "whoisServer": null
+}, {
+    "tld": "gp",
+    "description": "Guadeloupe",
+    "whoisServer": null
+}, {
+    "tld": "gq",
+    "description": "Equatorial Guinea",
+    "whoisServer": null
+}, {
+    "tld": "gr",
+    "description": "Greece",
+    "whoisServer": null
+}, {
+    "tld": "gs",
+    "description": "South Georga and the South Sandwhich Islands",
+    "whoisServer": "gs.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "gt",
+    "description": "Guatemala",
+    "whoisServer": null
+}, {
+    "tld": "gu",
+    "description": "Guam",
+    "whoisServer": null
+}, {
+    "tld": "gw",
+    "description": "Guinea-Bissau",
+    "whoisServer": null
+}, {
+    "tld": "gy",
+    "description": "Guyana",
+    "whoisServer": "gy.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "hk",
+    "description": "Hong Kong",
+    "whoisServer": "hk.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/The domain has not been registered\\./",
+        "waitPeriod": "/Please maintain at least \\d+-second time before starting another enquiry/"
+    },
+    "waitPeriod": 5
+}, {
+    "tld": "hm",
+    "description": "Heard Island and McDonald Islands",
+    "whoisServer": null
+}, {
+    "tld": "hn",
+    "description": "Honduras",
+    "whoisServer": "whois.nic.hn",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "hr",
+    "description": "Croatia",
+    "whoisServer": "hr.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found/",
+        "quotaExceeded": "/Too many requests/"
+    }
+}, {
+    "tld": "ht",
+    "description": "Haiti",
+    "whoisServer": "whois.nic.ht",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "hu",
+    "description": "Hungary",
+    "whoisServer": "hu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match/"
+    }
+}, {
+    "tld": "id",
+    "description": "Indonesia",
+    "whoisServer": null
+}, {
+    "tld": "ie",
+    "description": "Republic of Ireland",
+    "whoisServer": "ie.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% Not Registered/"
+    }
+}, {
+    "tld": "il",
+    "description": "Israel",
+    "whoisServer": "whois.isoc.org.il",
+    "patterns": {
+        "notRegistered": "/% No data was found/"
+    }
+}, {
+    "tld": "im",
+    "description": "Isle of Man",
+    "whoisServer": "im.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/was not found\\./"
+    }
+}, {
+    "tld": "in",
+    "description": "India",
+    "whoisServer": "in.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "io",
+    "description": "British Indian Ocean Territory",
+    "whoisServer": "io.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/is available for purchase/"
+    }
+}, {
+    "tld": "iq",
+    "description": "Iraq",
+    "whoisServer": "whois.cmc.iq",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "ir",
+    "description": "Iran",
+    "whoisServer": "ir.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%ERROR:101: no entries found/"
+    }
+}, {
+    "tld": "is",
+    "description": "Iceland",
+    "whoisServer": "is.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for query/"
+    }
+}, {
+    "tld": "it",
+    "description": "Italy",
+    "whoisServer": "it.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status:             AVAILABLE/"
+    }
+}, {
+    "tld": "je",
+    "description": "Jersey",
+    "whoisServer": "je.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: Available/",
+        "quotaExceeded": "/Quota exceeded/"
+    }
+}, {
+    "tld": "jm",
+    "description": "Jamaica",
+    "whoisServer": null
+}, {
+    "tld": "jo",
+    "description": "Jordan",
+    "whoisServer": null
+}, {
+    "tld": "jp",
+    "description": "Japan",
+    "whoisServer": "jp.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match!!/"
+    }
+}, {
+    "tld": "ke",
+    "description": "Kenya",
+    "whoisServer": "whois.kenic.or.ke",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "kg",
+    "description": "Kyrgyzstan",
+    "whoisServer": "kg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Data not found\\. This domain is available for registration\\./"
+    }
+}, {
+    "tld": "kh",
+    "description": "Cambodia",
+    "whoisServer": null
+}, {
+    "tld": "ki",
+    "description": "Kiribati",
+    "whoisServer": "whois.nic.ki",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "km",
+    "description": "Comoros",
+    "whoisServer": null
+}, {
+    "tld": "kn",
+    "description": "Saint Kitts and Nevis",
+    "whoisServer": null
+}, {
+    "tld": "kp",
+    "description": "Democratic People's Republic of Korea",
+    "whoisServer": null
+}, {
+    "tld": "kr",
+    "description": "Republic of Korea",
+    "whoisServer": "whois.krnic.net",
+    "patterns": {
+        "notRegistered": "/Above domain name is not registered to KRNIC\\./"
+    }
+}, {
+    "tld": "kw",
+    "description": "Kuwait",
+    "whoisServer": null
+}, {
+    "tld": "ky",
+    "description": "Cayman Islands",
+    "whoisServer": null
+}, {
+    "tld": "kz",
+    "description": "Kazakhstan",
+    "whoisServer": "whois.nic.kz",
+    "patterns": {
+        "notRegistered": "/\\*\\*\\* Nothing found for this query\\./"
+    }
+}, {
+    "tld": "la",
+    "description": "Laos",
+    "whoisServer": "whois.nic.la",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "lb",
+    "description": "Lebanon",
+    "whoisServer": null
+}, {
+    "tld": "lc",
+    "description": "Saint Lucia",
+    "whoisServer": null
+}, {
+    "tld": "li",
+    "description": "Liechtenstein",
+    "whoisServer": "li.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/We do not have an entry in our database matching your query\\./"
+    }
+}, {
+    "tld": "lk",
+    "description": "Sri Lanka",
+    "whoisServer": null
+}, {
+    "tld": "lr",
+    "description": "Liberia",
+    "whoisServer": null
+}, {
+    "tld": "ls",
+    "description": "Lesotho",
+    "whoisServer": null
+}, {
+    "tld": "lt",
+    "description": "Lithuania",
+    "whoisServer": "lt.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status:\\s+available/"
+    }
+}, {
+    "tld": "lu",
+    "description": "Luxembourg",
+    "whoisServer": "lu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No such domain/",
+        "quotaExceeded": "/Maximum query rate reached/",
+        "waitPeriod": "/Excessive querying, grace period of \\d+ seconds/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "lv",
+    "description": "Latvia",
+    "whoisServer": "lv.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: free/"
+    }
+}, {
+    "tld": "ly",
+    "description": "Libya",
+    "whoisServer": "whois.nic.ly",
+    "patterns": {
+        "notRegistered": "/Not found/"
+    }
+}, {
+    "tld": "ma",
+    "description": "Morocco",
+    "whoisServer": "whois.iam.net.ma",
+    "patterns": {
+        "notRegistered": "/%error 230 No Objects Found/"
+    }
+}, {
+    "tld": "mc",
+    "description": "Monaco",
+    "whoisServer": null
+}, {
+    "tld": "md",
+    "description": "Moldova",
+    "whoisServer": "md.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "me",
+    "description": "Montenegro",
+    "whoisServer": "me.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "mg",
+    "description": "Madagascar",
+    "whoisServer": "mg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: Available/",
+        "quotaExceeded": "/Lookup quota exceeded/"
+    }
+}, {
+    "tld": "mh",
+    "description": "Marshall Isalnds",
+    "whoisServer": null
+}, {
+    "tld": "mk",
+    "description": "Macedonia",
+    "whoisServer": null
+}, {
+    "tld": "ml",
+    "description": "Mali",
+    "whoisServer": null
+}, {
+    "tld": "mm",
+    "description": "Myanmar",
+    "whoisServer": null
+}, {
+    "tld": "mn",
+    "description": "Mongolia",
+    "whoisServer": null
+}, {
+    "tld": "mo",
+    "description": "Macau",
+    "whoisServer": null
+}, {
+    "tld": "mp",
+    "description": "Northern Mariana Islands",
+    "whoisServer": null
+}, {
+    "tld": "mq",
+    "description": "Martinique",
+    "whoisServer": null
+}, {
+    "tld": "mr",
+    "description": "Mauritania",
+    "whoisServer": null
+}, {
+    "tld": "ms",
+    "description": "Montserrat",
+    "whoisServer": "ms.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/",
+        "quotaExceeded": "/Look up quota exceeded/"
+    }
+}, {
+    "tld": "mt",
+    "description": "Malta",
+    "whoisServer": null
+}, {
+    "tld": "mu",
+    "description": "Mauritius",
+    "whoisServer": "mu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "mv",
+    "description": "Maldives",
+    "whoisServer": null
+}, {
+    "tld": "mw",
+    "description": "Malawi",
+    "whoisServer": null
+}, {
+    "tld": "mx",
+    "description": "Mexico",
+    "whoisServer": "mx.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No_Se_Encontro_El_Objeto\\/Object_Not_Found/"
+    }
+}, {
+    "tld": "my",
+    "description": "Malaysia",
+    "whoisServer": "my.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/does not exist in database/",
+        "quotaExceeded": "/Whois query refused\\./"
+    }
+}, {
+    "tld": "mz",
+    "description": "Mozambique",
+    "whoisServer": null
+}, {
+    "tld": "na",
+    "description": "Namibia",
+    "whoisServer": "na.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "nc",
+    "description": "New Caledonia",
+    "whoisServer": "whois.nc",
+    "patterns": {
+        "notRegistered": "/No entries found in the \\.nc database/"
+    }
+}, {
+    "tld": "ne",
+    "description": "Niger",
+    "whoisServer": null
+}, {
+    "tld": "nf",
+    "description": "Norfold Island",
+    "whoisServer": "nf.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "ng",
+    "description": "Nigeria",
+    "whoisServer": "whois.nic.net.ng",
+    "patterns": {
+        "notRegistered": "/Domain Status: Available/"
+    }
+}, {
+    "tld": "ni",
+    "description": "Nicaragua",
+    "whoisServer": null
+}, {
+    "tld": "nl",
+    "description": "Netherlands",
+    "whoisServer": "nl.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/is free/",
+        "waitPeriod": "/maximum number of requests per second exceeded/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "no",
+    "description": "Norway",
+    "whoisServer": "no.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No match/"
+    }
+}, {
+    "tld": "np",
+    "description": "Nepal",
+    "whoisServer": null
+}, {
+    "tld": "nr",
+    "description": "Nauru",
+    "whoisServer": null
+}, {
+    "tld": "nu",
+    "description": "Niue",
+    "whoisServer": "nu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/not found/"
+    }
+}, {
+    "tld": "nz",
+    "description": "New Zealand",
+    "whoisServer": "whois.srs.net.nz",
+    "patterns": {
+        "notRegistered": "/query_status: 220 Available/"
+    }
+}, {
+    "tld": "om",
+    "description": "Oman",
+    "whoisServer": "whois.registry.om",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "pa",
+    "description": "Panama",
+    "whoisServer": null
+}, {
+    "tld": "pe",
+    "description": "Peru",
+    "whoisServer": "pe.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/",
+        "quotaExceeded": "/Looup quota exceeded/"
+    }
+}, {
+    "tld": "pf",
+    "description": "French Polynesia",
+    "whoisServer": null
+}, {
+    "tld": "pg",
+    "description": "Papua New Guinea",
+    "whoisServer": null
+}, {
+    "tld": "ph",
+    "description": "Philippines",
+    "whoisServer": null
+}, {
+    "tld": "pk",
+    "description": "Pakistan",
+    "whoisServer": null
+}, {
+    "tld": "pl",
+    "description": "Poland",
+    "whoisServer": "pl.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No information available about domain name/"
+    }
+}, {
+    "tld": "pm",
+    "description": "Saint-Pierre and Miquelon",
+    "whoisServer": "pm.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
+}, {
+    "tld": "pn",
+    "description": "Pitcairn Islands",
+    "whoisServer": null
+}, {
+    "tld": "pr",
+    "description": "Puerto Rico",
+    "whoisServer": null
+}, {
+    "tld": "ps",
+    "description": "Palestinian territories",
+    "whoisServer": "ps.whois-servers.net"
+}, {
+    "tld": "pt",
+    "description": "Portugal",
+    "whoisServer": "pt.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ no match/"
+    }
+}, {
+    "tld": "pw",
+    "description": "Palau",
+    "whoisServer": null
+}, {
+    "tld": "py",
+    "description": "Paragua",
+    "whoisServer": null
+}, {
+    "tld": "qa",
+    "description": "Qatar",
+    "whoisServer": "whois.registry.qa",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "re",
+    "description": "R\u00e9union",
+    "whoisServer": "re.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
+}, {
+    "tld": "ro",
+    "description": "Romania",
+    "whoisServer": "ro.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for the selected source\\(s\\)\\./"
+    }
+}, {
+    "tld": "rs",
+    "description": "Serbia",
+    "whoisServer": "rs.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain is not registered/"
+    }
+}, {
+    "tld": "ru",
+    "description": "Russia",
+    "whoisServer": "ru.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for the selected source\\(s\\)\\./"
+    }
+}, {
+    "tld": "rw",
+    "description": "Rwanda",
+    "whoisServer": null
+}, {
+    "tld": "sa",
+    "description": "Saudi Arabia",
+    "whoisServer": "whois.nic.net.sa",
+    "patterns": {
+        "notRegistered": "/No Match for/"
+    }
+}, {
+    "tld": "sb",
+    "description": "Solomon Islands"
+}, {
+    "tld": "sc",
+    "description": "Seychelles",
+    "whoisServer": "sc.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "sd",
+    "description": "Sudan",
+    "whoisServer": null
+}, {
+    "tld": "se",
+    "description": "Sweden",
+    "whoisServer": "se.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ not found\\./"
+    }
+}, {
+    "tld": "sg",
+    "description": "Singapore",
+    "whoisServer": "sg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Not Found/"
+    }
+}, {
+    "tld": "sh",
+    "description": "Saint Helena",
+    "whoisServer": "sh.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/is available for purchase/"
+    }
+}, {
+    "tld": "si",
+    "description": "Slovenia",
+    "whoisServer": "si.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for the selected source\\(s\\)\\./"
+    }
+}, {
+    "tld": "sj",
+    "description": "Svalbard and Jan Mayen Islands",
+    "whoisServer": null
+}, {
+    "tld": "sk",
+    "description": "Slovakia",
+    "whoisServer": "sk.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found\\./"
+    }
+}, {
+    "tld": "sl",
+    "description": "Sierra Leone",
+    "whoisServer": null
+}, {
+    "tld": "sm",
+    "description": "San Marino",
+    "whoisServer": "whois.nic.sm",
+    "patterns": {
+        "notRegistered": "/No entries found\\./"
+    }
+}, {
+    "tld": "sn",
+    "description": "Senegal",
+    "whoisServer": null
+}, {
+    "tld": "so",
+    "description": "Somalia",
+    "whoisServer": "whois.nic.so",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "sr",
+    "description": "Suriname",
+    "whoisServer": null
+}, {
+    "tld": "ss",
+    "description": "South Sudan",
+    "whoisServer": null
+}, {
+    "tld": "st",
+    "description": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "whoisServer": "st.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for domain/"
+    }
+}, {
+    "tld": "su",
+    "description": "Soviet Union",
+    "whoisServer": "su.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for the selected source\\(s\\)\\./"
+    }
+}, {
+    "tld": "sv",
+    "description": "El Salvador",
+    "whoisServer": null
+}, {
+    "tld": "sy",
+    "description": "Syria",
+    "whoisServer": null
+}, {
+    "tld": "sz",
+    "description": "Swaziland",
+    "whoisServer": null
+}, {
+    "tld": "tc",
+    "description": "Turks and Caicos Islands",
+    "whoisServer": "whois.adamsnames.tc",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "td",
+    "description": "Chad",
+    "whoisServer": null
+}, {
+    "tld": "tf",
+    "description": "French Southern and Antarctic Lands",
+    "whoisServer": "tf.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
+}, {
+    "tld": "tg",
+    "description": "Togo",
+    "whoisServer": null
+}, {
+    "tld": "th",
+    "description": "Thailand",
+    "whoisServer": "whois.thnic.co.th",
+    "patterns": {
+        "notRegistered": "/% No match for/"
+    }
+}, {
+    "tld": "tj",
+    "description": "Tajikistan",
+    "whoisServer": null
+}, {
+    "tld": "tk",
+    "description": "Tokelau",
+    "whoisServer": "tk.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Invalid query or domain name not known in Dot TK Domain Registry/"
+    }
+}, {
+    "tld": "tl",
+    "description": "East Timor",
+    "whoisServer": "tl.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "tm",
+    "description": "Turkmenistan",
+    "whoisServer": "tm.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/is available for purchase/"
+    }
+}, {
+    "tld": "tn",
+    "description": "Tunisia",
+    "whoisServer": null
+}, {
+    "tld": "to",
+    "description": "Tonga",
+    "whoisServer": "to.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "tp",
+    "description": "East Timor",
+    "whoisServer": null
+}, {
+    "tld": "tr",
+    "description": "Turkey",
+    "whoisServer": "whois.nic.tr",
+    "patterns": {
+        "notRegistered": "/No match found for/"
+    }
+}, {
+    "tld": "tt",
+    "description": "Trinidad and Tobago",
+    "whoisServer": null
+}, {
+    "tld": "tv",
+    "description": "Tuvalu",
+    "whoisServer": "tv.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "tw",
+    "description": "Taiwan",
+    "whoisServer": "tw.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No Found/"
+    }
+}, {
+    "tld": "tz",
+    "description": "Tanzania",
+    "whoisServer": "whois.tznic.or.tz",
+    "patterns": {
+        "notRegistered": "/% No entries found\\./"
+    }
+}, {
+    "tld": "ua",
+    "description": "Ukraine",
+    "whoisServer": "ua.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for/"
+    }
+}, {
+    "tld": "ug",
+    "description": "Uganda",
+    "whoisServer": "ug.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for the selected source\\(s\\)\\./"
+    }
+}, {
+    "tld": "uk",
+    "description": "United Kingdom",
+    "whoisServer": "whois.nic.uk",
+    "patterns": {
+        "notRegistered": "/This domain name has not been registered\\./"
+    }
+}, {
+    "tld": "us",
+    "description": "United States of America",
+    "whoisServer": "us.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found: /"
+    }
+}, {
+    "tld": "uy",
+    "description": "Uruguay",
+    "whoisServer": "whois.nic.org.uy",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "uz",
+    "description": "Uzbekistan",
+    "whoisServer": "uz.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/not found in database/"
+    }
+}, {
+    "tld": "va",
+    "description": "Vatican City",
+    "whoisServer": null
+}, {
+    "tld": "vc",
+    "description": "Saint Vincent and the Grenadines",
+    "whoisServer": "vc.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "ve",
+    "description": "Venezuele"
+}, {
+    "tld": "vg",
+    "description": "British Virgin Islands",
+    "whoisServer": "whois.adamsnames.tc",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "vi",
+    "description": "United States Virgin Islands",
+    "whoisServer": null
+}, {
+    "tld": "vn",
+    "description": "Vietnam",
+    "whoisServer": null
+}, {
+    "tld": "vu",
+    "description": "Vanuatu",
+    "whoisServer": null
+}, {
+    "tld": "wf",
+    "description": "Wallis and Futuna",
+    "whoisServer": "wf.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
+}, {
+    "tld": "ws",
+    "description": "Samoa",
+    "whoisServer": "ws.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "ye",
+    "description": "Yemen",
+    "whoisServer": null
+}, {
+    "tld": "yt",
+    "description": "Mayotte",
+    "whoisServer": "yt.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./",
+        "quotaExceeded": "/Too many requests/"
+    }
+}, {
+    "tld": "yu",
+    "description": "Yugoslavia",
+    "whoisServer": null
+}, {
+    "tld": "za",
+    "description": "South Africa",
+    "whoisServer": null
+}, {
+    "tld": "zm",
+    "description": "Zambia",
+    "whoisServer": null
+}, {
+    "tld": "zw",
+    "description": "Zimbabwe",
+    "whoisServer": null
+}, {
+    "tld": "academy",
+    "description": "Academy",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "accountants",
+    "description": "Accountants",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "actor",
+    "description": "Actor",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "agency",
+    "description": "Agency",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "airforce",
+    "description": "Air Force",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "archi",
+    "description": "Archi",
+    "whoisServer": "whois.ksregistry.net",
+    "patterns": {
+        "notRegistered": "/not found/"
+    }
+}, {
+    "tld": "associates",
+    "description": "Associates",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "audio",
+    "description": "Audio",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "axa",
+    "description": "Axa"
+}, {
+    "tld": "bar",
+    "description": "Bar",
+    "whoisServer": "whois.nic.bar",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "bargains",
+    "description": "Bargains",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "bayern",
+    "description": "Bayern",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "beer",
+    "description": "Beer",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "berlin",
+    "description": "Berlin",
+    "whoisServer": "whois.nic.berlin",
+    "patterns": {
+        "notRegistered": "/% No match/"
+    }
+}, {
+    "tld": "best",
+    "description": "Best"
+}, {
+    "tld": "bid",
+    "description": "Bid"
+}, {
+    "tld": "bike",
+    "description": "Bike",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "black",
+    "description": "Black",
+    "whoisServer": "whois.nic.black",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "blackfriday",
+    "description": "Black Friday",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "blue",
+    "description": "Blue",
+    "whoisServer": "whois.nic.blue",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "boutique",
+    "description": "Boutique",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "build",
+    "description": "build",
+    "whoisServer": "whois.nic.build",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "builders",
+    "description": "Builders",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "buzz",
+    "description": "Buzz"
+}, {
+    "tld": "cab",
+    "description": "Cab",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "camera",
+    "description": "Camera",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "camp",
+    "description": "Camp",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "capital",
+    "description": "Capital",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "cards",
+    "description": "Cards",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "care",
+    "description": "Care",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "career",
+    "description": "Career"
+}, {
+    "tld": "careers",
+    "description": "Careers",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "cash",
+    "description": "Cash",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "catering",
+    "description": "Catering",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "center",
+    "description": "Center",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "ceo",
+    "description": "CEO",
+    "whoisServer": "whois.nic.ceo",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "cheap",
+    "description": "Cheap",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "christmas",
+    "description": "Christmas",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "church",
+    "description": "Church",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "citic",
+    "description": "Citic"
+}, {
+    "tld": "claims",
+    "description": "Claims",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "cleaning",
+    "description": "Cleaning",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "clinic",
+    "description": "Clinic",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "clothing",
+    "description": "Clothing",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "club",
+    "description": "Club",
+    "whoisServer": "whois.nic.club",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "codes",
+    "description": "Codes",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "coffee",
+    "description": "Coffee",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "college",
+    "description": "College",
+    "whoisServer": "whois.centralnic.com",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "cologne",
+    "description": "Cologne",
+    "whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
+    "patterns": {
+        "notRegistered": "/% no matching objects found/"
+    }
+}, {
+    "tld": "community",
+    "description": "Community",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "company",
+    "description": "Company",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "computer",
+    "description": "Computer",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "construction",
+    "description": "Construction",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "contractors",
+    "description": "Contractors",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "cooking",
+    "description": "Cooking",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "cool",
+    "description": "Cool",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "country",
+    "description": "Country",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "credit",
+    "description": "Credit",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "creditcard",
+    "description": "Credit Card",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "cruises",
+    "description": "Cruises",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "dance",
+    "description": "Dance",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "dating",
+    "description": "Dating",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "democrat",
+    "description": "Democrat",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "dental",
+    "description": "Dental",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "desi",
+    "description": "Desi",
+    "whoisServer": "whois.ksregistry.net",
+    "patterns": {
+        "notRegistered": "/not found/"
+    }
+}, {
+    "tld": "diamonds",
+    "description": "Diamonds",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "digital",
+    "description": "Digital",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "directory",
+    "description": "Directory",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "discount",
+    "description": "Discount",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "domains",
+    "description": "Domains",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "education",
+    "description": "Education",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "email",
+    "description": "Email",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "engineering",
+    "description": "Engineering",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "enterprises",
+    "description": "Enterprises",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "equipment",
+    "description": "Equipment",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "estate",
+    "description": "Estate",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "events",
+    "description": "Events",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "exchange",
+    "description": "Exchange",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "expert",
+    "description": "Expert",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "exposed",
+    "description": "Exposed",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "fail",
+    "description": "Fail",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "farm",
+    "description": "Farm",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "feedback",
+    "description": "Feedback",
+    "whoisServer": "whois.centralnic.com",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "finance",
+    "description": "Finance",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "financial",
+    "description": "Financial",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "fish",
+    "description": "Fish",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "fishing",
+    "description": "Fishing",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "fitness",
+    "description": "Fitness",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "flights",
+    "description": "Flights",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "florist",
+    "description": "Florist",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "foo",
+    "description": "Foo",
+    "whoisServer": "domain-registry-whois.l.google.com",
+    "patterns": {
+        "notRegistered": "/Domain not found/"
+    }
+}, {
+    "tld": "foundation",
+    "description": "Foundation",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "frogans",
+    "description": "Frogans",
+    "whoisServer": "whois-frogans.nic.fr",
+    "patterns": {
+        "notRegistered": "/Requested Domain cannot be found/"
+    }
+}, {
+    "tld": "fund",
+    "description": "Fund",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "furniture",
+    "description": "Furniture",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "futbol",
+    "description": "Futbol",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "gal",
+    "description": "Gal",
+    "whoisServer": "whois.gal.coreregistry.net",
+    "patterns": {
+        "notRegistered": "/% no matching objects found/"
+    }
+}, {
+    "tld": "gallery",
+    "description": "Gallery",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "gift",
+    "description": "Gift",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "glass",
+    "description": "Glass",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "globo",
+    "description": "Globo",
+    "whoisServer": "whois.gtlds.nic.br",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "gmo",
+    "description": "Gmo"
+}, {
+    "tld": "gop",
+    "description": "Gop",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "graphics",
+    "description": "Graphics",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "gratis",
+    "description": "Gratis",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "gripe",
+    "description": "Gripe",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "guide",
+    "description": "Guide",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "guitars",
+    "description": "Guitars",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "guru",
+    "description": "Guru",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "haus",
+    "description": "Haus",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "hiphop",
+    "description": "Hip-Hop",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "holdings",
+    "description": "Holdings",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "holiday",
+    "description": "Holiday",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "horse",
+    "description": "Horse",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "house",
+    "description": "House",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "immobilien",
+    "description": "Immobilien",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "industries",
+    "description": "Industries",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "institute",
+    "description": "Institute",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "insure",
+    "description": "Insure",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "international",
+    "description": "International",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "investments",
+    "description": "Investments",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "jetzt",
+    "description": "Jetzt"
+}, {
+    "tld": "juegos",
+    "description": "Juegos",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "kaufen",
+    "description": "Kaufen",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "kim",
+    "description": "Kim",
+    "whoisServer": "whois.afilias.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "kitchen",
+    "description": "Kitchen",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "kiwi",
+    "description": "Kiwi",
+    "whoisServer": "whois.dot-kiwi.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "koeln",
+    "description": "Koeln",
+    "whoisServer": "whois-fe1.pdt.cologne.tango.knipp.de",
+    "patterns": {
+        "notRegistered": "/no matching objects found/"
+    }
+}, {
+    "tld": "kred",
+    "description": "Kred"
+}, {
+    "tld": "land",
+    "description": "Land",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "lease",
+    "description": "Lease",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "life",
+    "description": "Life",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "lighting",
+    "description": "Lighting",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "limited",
+    "description": "Limited",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "limo",
+    "description": "Limo",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "link",
+    "description": "Link",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "loans",
+    "description": "Loans",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "london",
+    "description": "London",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "luxe",
+    "description": "luxe",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "luxury",
+    "description": "Luxury",
+    "whoisServer": "whois.nic.luxury",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "management",
+    "description": "Management",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "mango",
+    "description": "Mango",
+    "whoisServer": "whois.mango.coreregistry.net",
+    "patterns": {
+        "notRegistered": "/% no matching objects found/"
+    }
+}, {
+    "tld": "marketing",
+    "description": "Marketing",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "media",
+    "description": "Media",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "meet",
+    "description": "Meet",
+    "whoisServer": "whois.nic.meet",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "menu",
+    "description": "Menu",
+    "whoisServer": "whois.nic.menu",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "miami",
+    "description": "Miami",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "moda",
+    "description": "Moda",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "moe",
+    "description": "Moe"
+}, {
+    "tld": "monash",
+    "description": "Monash",
+    "whoisServer": "whois.nic.monash",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "moscow",
+    "description": "Moscow",
+    "whoisServer": "whois.nic.moscow",
+    "patterns": {
+        "notRegistered": "/No entries found for/"
+    }
+}, {
+    "tld": "nagoya",
+    "description": "Nagoya"
+}, {
+    "tld": "neustar",
+    "description": "Neustar"
+}, {
+    "tld": "ninja",
+    "description": "Ninja",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "nyc",
+    "description": "New York City"
+}, {
+    "tld": "okinawa",
+    "description": "Okinawa"
+}, {
+    "tld": "onl",
+    "description": "Online",
+    "whoisServer": "whois.afilias-srs.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "paris",
+    "description": "Paris",
+    "whoisServer": "whois-paris.nic.fr",
+    "patterns": {
+        "notRegistered": "/Requested Domain cannot be found/"
+    }
+}, {
+    "tld": "partners",
+    "description": "Partners",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "parts",
+    "description": "Parts",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "photo",
+    "description": "Photo",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "photography",
+    "description": "Photography",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "photos",
+    "description": "Photos",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "pics",
+    "description": "Pics",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "pictures",
+    "description": "pictures",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "pink",
+    "description": "Pink",
+    "whoisServer": "whois.afilias.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "plumbing",
+    "description": "Pluming",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "post",
+    "description": "Post",
+    "whoisServer": "whois.dotpostregistry.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "productions",
+    "description": "Productions",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "properties",
+    "description": "Properties",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "pub",
+    "description": "Pub",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "qpon",
+    "description": "Qpon"
+}, {
+    "tld": "quebec",
+    "description": "Quebec",
+    "whoisServer": "whois.quebec.rs.corenic.net",
+    "patterns": {
+        "notRegistered": "/% no matching objects found/"
+    }
+}, {
+    "tld": "recipes",
+    "description": "Recipes",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "red",
+    "description": "Red",
+    "whoisServer": "whois.afilias.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "reisen",
+    "description": "Reisen",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "ren",
+    "description": "Ren"
+}, {
+    "tld": "rentals",
+    "description": "Rentals",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "repair",
+    "description": "Repair",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "report",
+    "description": "Report",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "rest",
+    "description": "Rest",
+    "whoisServer": "whois.centralnic.com",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "reviews",
+    "description": "Reviews",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "rich",
+    "description": "Rich",
+    "whoisServer": "whois.afilias-srs.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "rocks",
+    "description": "Rocks",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "rodeo",
+    "description": "Rodeo",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "ruhr",
+    "description": "Ruhr",
+    "whoisServer": "whois.nic.ruhr",
+    "patterns": {
+        "notRegistered": "/% no matching objects found/"
+    }
+}, {
+    "tld": "ryukyu",
+    "description": "Ryukyu"
+}, {
+    "tld": "saarland",
+    "description": "Saarland",
+    "whoisServer": "whois.ksregistry.net",
+    "patterns": {
+        "notRegistered": "/not found/"
+    }
+}, {
+    "tld": "schule",
+    "description": "Schule",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "services",
+    "description": "Services",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "sexy",
+    "description": "Sexy",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "shiksha",
+    "description": "Shiksha",
+    "whoisServer": "whois.afilias.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "shoes",
+    "description": "Shoes",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "singles",
+    "description": "Singles",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "social",
+    "description": "Social",
+    "whoisServer": "whois.unitedtld.com",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./"
+    }
+}, {
+    "tld": "sohu",
+    "description": "Sohu"
+}, {
+    "tld": "solar",
+    "description": "Solar",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "solutions",
+    "description": "Solutions",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "soy",
+    "description": "Soy",
+    "whoisServer": "domain-registry-whois.l.google.com",
+    "patterns": {
+        "notRegistered": "/Domain not found/"
+    }
+}, {
+    "tld": "supplies",
+    "description": "Supplies",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "supply",
+    "description": "Supply",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "support",
+    "description": "Support",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "surgery",
+    "description": "Surgery",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "systems",
+    "description": "Systems",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "tattoo",
+    "description": "Tattoo",
+    "whoisServer": "whois.uniregistry.net",
+    "patterns": {
+        "notRegistered": "/is available for registration/"
+    }
+}, {
+    "tld": "tax",
+    "description": "Tax",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "technology",
+    "description": "Technology",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "tienda",
+    "description": "Tienda",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "tips",
+    "description": "Tips",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "today",
+    "description": "Today",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "tokyo",
+    "description": "Tokyo"
+}, {
+    "tld": "tools",
+    "description": "Tools",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "town",
+    "description": "Town",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "toys",
+    "description": "Toys",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "trade",
+    "description": "Trade"
+}, {
+    "tld": "training",
+    "description": "Training",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "university",
+    "description": "University",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "uno",
+    "description": "Uno"
+}, {
+    "tld": "vacations",
+    "description": "Vacations",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "vegas",
+    "description": "Las Vegas",
+    "whoisServer": "whois.nic.vegas",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "ventures",
+    "description": "Ventures",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "viajes",
+    "description": "Viajes",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "villas",
+    "description": "Villas",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "vision",
+    "description": "Vision",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "vodka",
+    "description": "Vodka",
+    "whoisServer": "whois-dub.mm-registry.com",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
+}, {
+    "tld": "vote",
+    "description": "Vote",
+    "whoisServer": "whois.nic.vote",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "voting",
+    "description": "Voting",
+    "whoisServer": "whois.voting.tld-box.at",
+    "patterns": {
+        "notRegistered": "/% No match/"
+    }
+}, {
+    "tld": "voto",
+    "description": "voto",
+    "whoisServer": "whois.nic.voto",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "voyage",
+    "description": "Voyage",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "wang",
+    "description": "Wang",
+    "whoisServer": "whois.gtld.knet.cn",
+    "patterns": {
+        "notRegistered": "/No match/"
+    }
+}, {
+    "tld": "watch",
+    "description": "Watch",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "webcam",
+    "description": "Webcam"
+}, {
+    "tld": "wed",
+    "description": "Wed",
+    "whoisServer": "whois.nic.wed",
+    "patterns": {
+        "notRegistered": "/Domain Status: No Object Found/"
+    }
+}, {
+    "tld": "wien",
+    "description": "Wien",
+    "whoisServer": "whois.nic.wien",
+    "patterns": {
+        "notRegistered": "/% No match/"
+    }
+}, {
+    "tld": "wiki",
+    "description": "Wiki",
+    "whoisServer": "whois.nic.wiki",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "works",
+    "description": "Works",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "wtc",
+    "description": "World Trade Centers",
+    "whoisServer": "whois.nic.wtc",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
+}, {
+    "tld": "wtf",
+    "description": "WTF",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}, {
+    "tld": "xyz",
+    "description": "XYZ",
+    "whoisServer": "whois.nic.xyz",
+    "patterns": {
+        "notRegistered": "/DOMAIN NOT FOUND/"
+    }
+}, {
+    "tld": "yokohama",
+    "description": "Yokohama"
+}, {
+    "tld": "zone",
+    "description": "Zone",
+    "whoisServer": "whois.donuts.co",
+    "patterns": {
+        "notRegistered": "/Domain not found\\./",
+        "waitPeriod": "/Your request is being rate limited. Please reduce the frequency of your requests and try again later/"
+    },
+    "waitPeriod": 1
+}]
