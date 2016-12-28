@@ -2739,7 +2739,10 @@
     }
 }, {
     "tld": "moe",
-    "description": "Moe"
+    "description": "moe",
+    "whoisServer": "whois.nic.moe",
+    "patterns": {
+        "notRegistered": "/The queried object does not exist/"
 }, {
     "tld": "monash",
     "description": "Monash",
