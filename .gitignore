@@ -1,2 +1,4 @@
 
 *.xml
+
+.idea/misc.xml

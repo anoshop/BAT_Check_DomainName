@@ -139,7 +139,7 @@ func query(line string) {
 		reg := regexp.MustCompile(tldinfo.Patterns.NotRegistered)
 		re := reg.FindAllString(newstr, -1)
 		if re == nil {
-			fmt.Printf(domain+"has been registed\n")
+			fmt.Printf(domain+"  has been registed\n")
 			//wgLogFile.Lock()
 			//fileLog.WriteString(`已被注册:` + domain)
 			//
