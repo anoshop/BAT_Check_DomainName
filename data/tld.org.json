@@ -1398,7 +1398,12 @@
 }, {
     "tld": "tn",
     "description": "Tunisia",
-    "whoisServer": null
+    "whoisServer": "whois.tn",
+     "patterns": {
+        "notRegistered" : "/NO OBJECT FOUND!/"
+    }
+
+
 }, {
     "tld": "to",
     "description": "Tonga",
