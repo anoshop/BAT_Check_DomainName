@@ -11,23 +11,18 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"tld"
 	//"strconv"
 	"strconv"
 )
 
-var dict string = "/Users/Eric/PycharmProjects/domain/src/dict/3py.txt"
-var tlds string = "to"
-var tldinfo tld.Tld
 
-var wg sync.WaitGroup
-var waittime int64 =3
+var wgg sync.WaitGroup
 var (
-	fileSucc *os.File
+	fileSuccF *os.File
 	//fileError *os.File
 	//fileLog   *os.File
 
-	wgSuccFile sync.Mutex
+	wgSuccFileF sync.Mutex
 	//wgErrorFile sync.Mutex
 	//wgLogFile sync.Mutex
 
@@ -35,16 +30,9 @@ var (
 
 func main() {
 
-	args := os.Args //获取用户输入的所有参数
-	if args == nil || len(args) < 3 {
-		helper() //如果用户没有输入,或参数个数不够,则调用该函数提示用户
-		return
-	} else {
-		tlds = os.Args[1]
-		dict = "./dict/" + os.Args[2]
-		waittime,_ = strconv.ParseInt(os.Args[3],10,64)
 
-	}
+	waittime,_ := strconv.ParseInt("10000",10,64)
+	dict := "./dict/3en.txt"
 
 
 
@@ -54,20 +42,8 @@ func main() {
 	//var curWaitSecond int64 = 1000*1000
 
 
-	//Get Tld info
-	tldinfo, _ = tld.GetTld(tlds, "./data/tld.org.json")
-	if tldinfo.WhoisServer == `` || tldinfo.WhoisServer == "null" {
-		fmt.Println("Whois服务器地址为空，程序退出" +
-			"\r\nAPP exit for the whois Server is null,please switch other tld")
-		os.Exit(1)
-	}
 
-	fileSucc, _ = os.Create("./" + tldinfo.Tld + "_" + time.Stamp + "_succ.txt")
-	//fileSucc.Close()
-	//fileError, _ = os.Create("./" + tldinfo.Tld + "_" + time.Stamp + "_error.txt")
-	//fileError.Close()
-	//fileLog, _ = os.Create("./" + tldinfo.Tld + "_" + time.Stamp + "_log.txt")
-	//fileLog.Close()
+	fileSuccF, _ = os.Create("./ai_succ.txt")
 
 	//load dict file and goto check regist status
 	f, err := os.Open(dict) //打开文件
@@ -80,24 +56,24 @@ func main() {
 			if err != nil || io.EOF == err {
 				break
 			}
-			go query(line)
+			 testquery(line)
 			time.Sleep(time.Duration(curWaitSecond))
 		}
 
 	}
 
-	wg.Wait()
+	wgg.Wait()
 
 	fmt.Println("作业任务已完成\r\n Task finish ")
-	fileSucc.Close()
+	fileSuccF.Close()
 	os.Exit(1)
 
 }
 
-func query(line string) {
-	wg.Add(1)
+func testquery(line string) {
+	wgg.Add(1)
 
-	conn, err := net.DialTimeout("tcp", tldinfo.WhoisServer+":43", 30*time.Second)
+	conn, err := net.DialTimeout("tcp","whois.ai:43", 30*time.Second)
 	//conn, err := net.Dial("tcp", tldinfo.WhoisServer+":43")
 	if err != nil {
 		fmt.Printf("connect error :%s  AAA\n", err.Error())
@@ -121,7 +97,7 @@ func query(line string) {
 
 	line = strings.Trim(line, " ")
 	line = strings.Trim(line, "\n")
-	domain := line + "." + tldinfo.Tld
+	domain := line + ".ai"
 
 	//fmt.Printf(domain + "\r\n")
 	fmt.Fprintf(conn, domain+"\r\n")
@@ -136,7 +112,7 @@ func query(line string) {
 		//fmt.Printf(newstr)
 
 		////正则匹配
-		reg := regexp.MustCompile(tldinfo.Patterns.NotRegistered)
+		reg := regexp.MustCompile("/ not registred\\./")
 		re := reg.FindAllString(newstr, -1)
 		if re == nil {
 			fmt.Printf(domain+"  has been registed\n")
@@ -149,9 +125,9 @@ func query(line string) {
 			fmt.Printf(domain+" can be regist!!can be regist!!can be regist!! \n")
 			//wgLogFile.Lock()
 			//fileLog.WriteString(`恭喜，可以被注册:` + domain)
-			wgSuccFile.Lock()
-			fileSucc.WriteString(domain + "\r\n")
-			wgSuccFile.Unlock()
+			wgSuccFileF.Lock()
+			fileSuccF.WriteString(domain + "\r\n")
+			wgSuccFileF.Unlock()
 
 			//wgLogFile.Lock()
 		}
@@ -163,19 +139,8 @@ func query(line string) {
 		//wgLogFile.Lock()
 	}
 
-	wg.Done()
+	wgg.Done()
 
 }
 
-func helper() {
-	fmt.Println("功能：根据字典批量查询域名是否可以注册\r\n\r\n" +
-		"用法：`程序名 域名后缀 data文件夹中任一字典文件名 多线程发动间隔秒数(如io域名建议3秒)`, \r\n      如window下的 sg.exe com 3py.txt 3 \r\n\r\n" +
-		"字典增减：可以在dict目录增加任意文本文件，一行一个字符串\r\n" +
-		"域名后缀增减：直接编辑data目录下的tld.json.txt\r\n" +
-		"作者:Eric.c via  http://sunorg.net  Since 2016年12月22日\r\n" +
-		"授权：随意用，\r\n" +
-		"\r\n\r\n" +
-		"Batch check domain name resgist status\r\n" +
-		"Usage: APPLACATION TLD Dict_file_name MicroSecond\r\n" +
-		"Example: ./mac_seepd com 2letter.txt  3 ")
-}
+

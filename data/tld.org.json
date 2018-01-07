@@ -384,7 +384,7 @@
     "description": "C\u00f4te d'Ivoire",
     "whoisServer": "whois.nic.ci",
     "patterns": {
-        "notRegistered": "/not found/"
+        "notRegistered": "/No Object Found/"
     }
 }, {
     "tld": "ck",

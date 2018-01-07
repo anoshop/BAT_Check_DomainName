@@ -187,7 +187,8 @@
     "patterns": {
         "notRegistered": "/ not registred\\./"
     }
-}, {
+},
+    {
     "tld": "al",
     "description": "Albania",
     "whoisServer": null
